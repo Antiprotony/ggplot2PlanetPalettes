@@ -1,4 +1,4 @@
-# ggplot2PlanetPalettes
+# The Planetary Palette: ggplot2 Color Scales Inspired by the Solar System
 
 ## Introduction
 `ggplot2PlanetPalettes` is an R package that provides color palettes inspired by the planets, moons, and asteroids of our Solar System. These palettes are designed for use with `ggplot2`, supporting both discrete and continuous scales.
@@ -56,4 +56,4 @@ Inspired by Mattia Esposito and by the beauty of our Solar System and the power 
 
 ## Citation
 If you use "ggplot2PlanetPalettes" in your work, please cite it as: 
-Luca Tonietti. (2025). ggplot2PlanetPalettes (Version 1.0.0)  [R package] Zenodo. https://doi.org/10.5281/zenodo.14755864
+Luca Tonietti. (2025). The Planetary Palette: ggplot2 Color Scales Inspired by the Solar System (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.14755864
