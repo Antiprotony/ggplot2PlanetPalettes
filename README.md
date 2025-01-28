@@ -52,7 +52,7 @@ This package is licensed under the MIT License.
 Contributions are welcome! Feel free to open an issue or submit a pull request on [GitHub](https://github.com/Antiprotony/ggplot2PlanetPalettes).
 
 ## Acknowledgments
-Inspired by the beauty of our Solar System and the power of ggplot2.
+Inspired by Mattia Esposito and by the beauty of our Solar System and the power of ggplot2.
 
 ## Citation
 If you use "ggplot2PlanetPalettes" in your work, please cite it as: 
