@@ -1,0 +1,16 @@
+Package: ggplot2PlanetPalettes
+Type: Package
+Title: Color Palettes Inspired by Celestial Bodies for ggplot2
+Version: 1.0.0
+Authors@R: c(
+    person("Luca Tonietti", "", email = "astrobio.itl@gmail.com", role = c("aut", "cre"))
+)
+Description: Provides color palettes for ggplot2 inspired by the appearance and characteristics of celestial bodies in the Solar System. The package includes discrete and continuous palettes for planets, moons, and asteroids.
+Depends: R (>= 4.0.0)
+Imports: ggplot2
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.1
+URL: https://github.com/Antiprotony/ggplot2PlanetPalettes
+BugReports: https://github.com/Antiprotony/ggplot2PlanetPalettes/issues
