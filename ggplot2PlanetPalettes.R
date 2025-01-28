@@ -97,6 +97,15 @@ scale_color_planet_continuous <- function(planet) {
   scale_color_gradientn(colors = planet_palettes[[planet]]$continuous)
 }
 
+# Function for discrete fill palettes
+scale_fill_planet_discrete <- function(planet) {
+  if (!planet %in% names(planet_palettes)) {
+    stop("Invalid planet name. Choose from: ", paste(names(planet_palettes), collapse = ", "))
+  }
+  scale_fill_manual(values = planet_palettes[[planet]]$discrete)
+}
+
+
 # Example usage for discrete data
 data_discrete <- data.frame(
   x = 1:5,
