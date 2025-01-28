@@ -1,12 +1,27 @@
 cff-version: 1.2.0
-message: "If you use this package, please cite it as follows:"
-title: "ggplot2PlanetPalettes"
-version: "1.0.0"
+message: "If you use this package, please cite it as below."
+title: "The Planetary Palette: First release of ggplot2PlanetPalettes"
+version: 1.0.0
+doi: 10.5281/zenodo.14755864
+date-released: 2025-01-28
 authors:
-  - family-names: "Tonietti"
-    given-names: "Luca"
-doi: "https://doi.org/10.5281/zenodo.14755864"
-date-released: "2025-01-28"
-abstract: |
-  ggplot2PlanetPalettes is an R package that provides a collection of color palettes inspired by celestial bodies in the Solar System. These palettes are designed to enhance data visualization with ggplot2, offering both discrete and continuous scales that are colorblind-friendly and visually appealing.
-type: "R package"
+  - family-names: Tonietti
+    given-names: Luca
+    orcid: <your-ORCID-id> # Optional, add your ORCID if you want
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.14755864
+  - type: url
+    value: https://github.com/Antiprotony/ggplot2PlanetPalettes
+repository-code: https://github.com/Antiprotony/ggplot2PlanetPalettes
+keywords:
+  - ggplot2
+  - data visualization
+  - R package
+  - celestial bodies
+  - Solar System
+abstract: >
+  ggplot2PlanetPalettes is an R package that provides color palettes inspired by the celestial
+  bodies of the Solar System. Designed to enhance data visualization in ggplot2, this package
+  includes both discrete and continuous palettes, optimized for accessibility and inspired by
+  the unique visual characteristics of planets, moons, and asteroids.
