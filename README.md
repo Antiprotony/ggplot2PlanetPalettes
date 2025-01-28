@@ -8,7 +8,7 @@ You can install `ggplot2PlanetPalettes` directly from GitHub using the `remotes`
 
 ```r
 install.packages("remotes")
-remotes::install_github("yourusername/ggplot2PlanetPalettes")
+remotes::install_github("Antiprotony/ggplot2PlanetPalettes")
 ```
 
 ## Usage
