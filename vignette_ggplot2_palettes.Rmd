@@ -1,0 +1,87 @@
+---
+title: "Using ggplot2 Planet Palettes"
+author: "Luca Tonietti"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Using ggplot2 Planet Palettes}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+# Introduction
+
+The `ggplot2PlanetPalettes` package provides a collection of color palettes inspired by the celestial bodies of our Solar System. Each planet, moon, and asteroid is represented with both discrete and continuous palettes designed for use with `ggplot2`.
+
+This vignette demonstrates how to use the package's features.
+
+## Installation
+
+To install the package, use:
+
+```r
+# Install from GitHub (https://github.com/Antiprotony/ggplot2PlanetPalettes)
+remotes::install_github("Antiprotony/ggplot2PlanetPalettes")
+```
+
+## Usage
+
+Load the library:
+
+```r
+library(ggplot2PlanetPalettes)
+```
+
+## Discrete Palettes
+
+To use a discrete palette for a celestial body, call the `scale_color_planet_discrete()` function.
+
+### Example: Earth
+
+```r
+data_discrete <- data.frame(
+  x = 1:5,
+  y = c(3, 5, 2, 8, 7),
+  group = factor(c("A", "B", "C", "D", "E"))
+)
+
+ggplot(data_discrete, aes(x, y, color = group)) +
+  geom_point(size = 5) +
+  scale_color_planet_discrete("Earth") +
+  theme_minimal()
+```
+
+## Continuous Palettes
+
+For continuous data, use the `scale_color_planet_continuous()` function.
+
+### Example: Mars
+
+```r
+data_continuous <- data.frame(
+  x = 1:100,
+  y = rnorm(100),
+  z = rnorm(100)
+)
+
+ggplot(data_continuous, aes(x, y, color = z)) +
+  geom_point(size = 3) +
+  scale_color_planet_continuous("Mars") +
+  theme_minimal()
+```
+
+## Available Palettes
+
+The following celestial bodies are supported:
+
+- **Planets**: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune
+- **Moons**: Moon, Io, Europa, Ganymede, Callisto, Titan, Enceladus, Triton
+- **Asteroids**: Ceres, Vesta, Pallas
+
+## Customization
+
+Feel free to modify the palettes or suggest improvements on the [GitHub repository](https://github.com/Antiprotony/ggplot2PlanetPalettes).
+
+# Conclusion
+
+The `ggplot2PlanetPalettes` package provides an easy way to add astronomical flair to your `ggplot2` visualizations. Explore the palettes and bring the beauty of the Solar System to your data!
