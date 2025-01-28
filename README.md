@@ -53,3 +53,7 @@ Contributions are welcome! Feel free to open an issue or submit a pull request o
 
 ## Acknowledgments
 Inspired by the beauty of our Solar System and the power of ggplot2.
+
+## Citation
+If you use "ggplot2PlanetPalettes" in your work, please cite it as: 
+Luca Tonietti. (2025). ggplot2PlanetPalettes (Version 1.0.0)  [R package] Zenodo. https://doi.org/10.5281/zenodo.14755864
