@@ -105,7 +105,6 @@ scale_fill_planet_discrete <- function(planet) {
   scale_fill_manual(values = planet_palettes[[planet]]$discrete)
 }
 
-
 # Example usage for discrete data
 data_discrete <- data.frame(
   x = 1:5,
